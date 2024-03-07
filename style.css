@@ -35,16 +35,16 @@ h2 {
     z-index: 99;
 }
 
-.menu ul {
+.menu {
     display: flex;
     list-style: none;
 }
 
-.menu ul li {
+.menu li {
     padding: 15px;
 }
 
-.menu ul li a {
+.menu li a {
     display: inline-block;
     text-decoration: none;
     color: var(--color1);
@@ -107,7 +107,7 @@ h2 {
 
     .menu li {margin-top: 40px;}
     .menu li a {padding: 10px;}
-    .open-menu , .close-menu {display: block;}
+    .open-menu , .close-menu {display: flex;}
     #check:checked ~ .menu {right: 0;}
 }
 
@@ -259,7 +259,7 @@ header p {
 
 .maps iframe {
     width: 100%;
-    height: auto;
+    height: 400px;
 }
 
 .places {
